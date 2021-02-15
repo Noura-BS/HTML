@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion des cellules d'un tableau</title>
+    <link real=style.sheet href=style.css"
+</head>
+<body>
+    <!--premier tableau-->
+    <div>
+        <caption>La liste des specialités culinaires par ville</caption>
+        <table>
+            <thead>
+            <tr>
+                <td>Nom</td>
+                <td>Specialités</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Toulouse</td>
+                <td>Cassoulet</td>
+                <td>Jambon cru</td>
+            </tr>
+            <tr>
+                <td>Strasbourg</td>
+                <td colspan="2">Choucroute</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>Café à 10euro</td>
+                <td>Jambon beurre à 20euro</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+<br>
+    <!--second tableau-->
+    <div>
+        <caption>La liste des spécialités culinaire par ville</caption>
+        <table>
+            <tr>
+                <td>Ville</td>
+                <td>Spécialités</td>
+                <td>Ingrédient principal</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Toulouse</td>
+                <td>Cassoulet jambon</td>
+                <td>Flageolet cochon</td>
+            </tr>
+            <tr>
+                <td>Strasbourg</td>
+                <td>Choucroute</td>
+                <td>Chou</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>Café à 10euro</td>
+                <td>Mauvaise humeur du serveur</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <!--genre-->
+        <p>Le genre : </p>
+        <div>
+            <input type="radio" id="femme"name="genre" value="femme">
+            <label for="genre">femme</label>
+        </div>
+        <div>
+            <input type="radio" id="homme" name="genre" value="homme">
+            <label for="genre">homme</label>
+        </div>
+        <br>
+        <!--coordonnées-->
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="firstname">Prénom :</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="tel">Tel :</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+        <br>
+        <!--selection connaissance-->
+            <fieldset>
+                <legend>Comment vous avez-nous connu ?</legend>
+
+                <input type="radio" id="web" name="know">
+                <label for="web">Web</label><br>
+            
+                <input type="radio" id="bouche à oreille" name="know">
+                <label for="Bouche à oreilles">Bouche à oreilles</label><br>
+
+                <input type="radio" id="publicité" name="know">
+                <label for="Publicité">Publicité</label><br>
+            </fieldset>
+            <br>
+
+            <!--selection type de client-->
+            <section>
+            <fieldset>
+                <legend>Type de client</legend>
+
+                <input type="radio" id="particulier" name="type">
+                <label for="particulier">Particulier</label><br>
+
+                <input type="radio" id="entreprise" name="type">
+                <label for="entreprise">Entreprise</label><br>
+
+                <input type="radio" id="association" name="type">
+                <label for="association">Association</label>
+            </fieldset>
+            </section>
+
+            <!--zone de message (à faire)-->
+
+    </form>
+</body>
+</html>
